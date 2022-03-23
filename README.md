@@ -1,6 +1,7 @@
 ![Screenshot](screen.png)
 
 Pour compiler : make && ./solong.a "Choix de votre map.ber"
+Par exemple : make && ./solong.a "map2.ber"
 
 Le jeu est seulement jouable pour les utilisateurs MacOS sous Intel.
 Les autres architectures ne sont pas supportées par la minilibX.

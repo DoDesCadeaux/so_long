@@ -1,9 +1,13 @@
 ![Screenshot](screen.png)
+### Game is playable only on Intel MacOS and Linux systems.
+### Other OS are not supported.
+### If you are on a Linux system you can download this version of MiniLibX : https://github.com/42Paris/minilibx-linux 
+### Don't forget to keep on the root of the project this libmlx.dylib file.
 
-## Pour compiler : make && ./solong.a "Choix de votre map.ber"
-Par exemple : make && ./solong.a "map2.ber"
+## Run the game : make && ./solong.a "Map_of_your_choice.ber"
+For example : make && ./solong.a "map2.ber"
 
-### Le jeu est seulement jouable pour les utilisateurs MacOS sous Intel.
-### Les autres architectures ne sont pas supportées par la minilibX.
-### Vous pouvez cependant installer une minilibX qui supporte Linux sur : https://github.com/42Paris/minilibx-linux 
-### Veillez à bien avoir le fichier libmlx.dylib dans la racine du repertoire.
+If map does'nt exists it will print an error.
+The map have to finish with ".ber" extension
+
+Have fun :)
